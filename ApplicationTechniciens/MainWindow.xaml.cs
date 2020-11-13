@@ -38,21 +38,31 @@ namespace ApplicationTechniciens
             {
                 string dt = DatePrise.Text;
                 LblDateEntrez.Content = dt;
+                SalleEntrez.Content = ListSalle.Text;
 
             }
-
-
         }
 
         private void BtnAjouter_Click(object sender, RoutedEventArgs e)
         {
-           // Window wnd = new Window();
+            // Window wnd = new Window();
             //wnd.ShowDialog();
 
             AjouterReservation wnd = new AjouterReservation();
             wnd.Show();
-            
 
+            /*
+            LblDateEntrez.Visibility = Visibility.Hidden;
+            BtnAjouter.Visibility = Visibility.Hidden;
+            BtnRefrech.Visibility = Visibility.Hidden;
+            DatePrise.Visibility = Visibility.Hidden;
+            LvDates.Visibility = Visibility.Hidden;
+            ListSalle.Visibility = Visibility.Hidden;
+            LblSalle.Visibility = Visibility.Hidden;
+            LblTextDate.Visibility = Visibility.Hidden;
+            LblTextSalle.Visibility = Visibility.Hidden;
+            SalleEntrez.Visibility = Visibility.Hidden;
+              */  
         }
 
         private void LvDates_SelectionChanged(object sender, SelectionChangedEventArgs e)

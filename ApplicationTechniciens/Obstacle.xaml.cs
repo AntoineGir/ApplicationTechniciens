@@ -15,19 +15,13 @@ using System.Windows.Shapes;
 namespace ApplicationTechniciens
 {
     /// <summary>
-    /// Logique d'interaction pour AjouterReservation.xaml
+    /// Logique d'interaction pour Obstacle.xaml
     /// </summary>
-    public partial class AjouterReservation : Window
+    public partial class Obstacle : Window
     {
-        public AjouterReservation()
+        public Obstacle()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Obstacle wnd = new Obstacle();
-            wnd.Show();
         }
     }
 }
