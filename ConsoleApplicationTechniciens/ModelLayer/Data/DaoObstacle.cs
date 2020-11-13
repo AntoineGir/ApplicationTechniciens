@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplicationTechniciens
+namespace ConsoleApplicationTechniciens.ModelLayer.Data
 {
-    class Program
+    class DaoObstacle
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
